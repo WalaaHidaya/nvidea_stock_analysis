@@ -1,5 +1,5 @@
 # Charger vos données
-data <- read.csv("C:\\Users\\walaa\\Downloads\\NVDA.csv")
+data <- read.csv("NVDA.csv")
 data$Date <- as.Date(data$Date)
 
 # Filtrer à partir de la date souhaitée (ex: 2000-01-03)
