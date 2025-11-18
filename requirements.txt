@@ -1,0 +1,21 @@
+# Requirements for LLM Analysis Application
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# LLM and API
+groq>=0.4.0
+
+# Streamlit for interactive app
+streamlit>=1.28.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Additional utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
